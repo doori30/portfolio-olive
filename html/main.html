@@ -1,0 +1,1835 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>OLIVE YOUNG</title>
+	<link rel="stylesheet" href="../css/fa.min.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/base.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<script src="../js/jquery.cookie.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/imagesloaded.pkgd.min.js"></script>
+	<script src="../js/masonry.pkgd.min.js"></script>
+	<script src="../js/wow.min.js"></script>
+</head>
+
+<body>
+	<!-- 상단: 분홍배너 -->
+	<header>
+		<div class="top-banner">
+			<div class="wrap">
+			올리브영 모바일 맵 더 쉽고 편리하게 사용하세요!
+				<div class="fas fa-times" id="bt-top-close"></div>
+			</div>
+		</div>
+		<!-- 상단:국가/통화/검색 -->
+		<div class="top-icons wrap">
+			<!-- <div></div> -->
+			<div class="langs sel-top">
+				<img src="../img/i-lang-1.png" class="sel-top-img" alt="영어">
+				<span class="sel-top-txt">ENG</span>
+				<i class="fas fa-angle-down pointer"></i>
+				<ul>
+					<li class="pointer">
+						<img src="../img/i-lang-1.png" alt="영어">
+						<span>ENG</span>
+					</li>
+					<li class="pointer">
+						<img src="../img/i-lang-2.png" alt="독일어">
+						<span>GER</span>
+					</li>
+				</ul>
+			</div>
+			<div class="currency sel-top">
+				<img src="../img/i-lang-1.png" class="sel-top-img"  alt="달러">
+				<span class="sel-top-txt">ENG</span>
+				<i class="fas fa-angle-down pointer"></i>
+				<ul>
+					<li class="pointer">
+						<img src="../img/i-currency-1.png" alt="달러">
+						<span>USD</span>
+					</li>
+					<li class="pointer">
+						<img src="../img/i-currency-2.png" alt="유로">
+						<span>EURO</span>
+					</li>
+					<li clas="pointer">
+						<img src="../img/i-currency-3.png" alt="파운드">
+						<span>GBP</span>
+					</li>
+					<li clas="pointer">
+						<img src="../img/i-currency-4.png" alt="프랑">
+						<span>CHF</span>
+					</li>
+				</ul>
+			</div>
+			<div class="schs">
+				<form action="/sch_main" method="post" name="schForm" onsubmit="return false;">
+					<input type="text" name="schTxt" class="sch-txt" placeholder="Search">
+					<button type="submit" class="sch-bt"><i class="fas fa-search"></i></button>
+				</form>
+				<div class="sch-layer">
+					<div class="sch-trending">
+						<div class="tit">TRENDING</div>
+						<ul class="tags">
+							<li class="tag">
+								<i class="fas fa-search"></i>
+								<span>dempus</span>
+							</li>
+						</ul>
+					</div>
+					<div class="sch-popular">
+						<div class="tit">POPULAR PRODUCTS</div>
+						<div class="prds">
+							<ul class="prd">
+								<li class="prd-img"><img src="../img/list-img4.jpg" class="img"></li>
+								<li class="prd-tit">Tomorrow</li>
+								<li class="prd-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+								<li class="prd-star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="prd-price">$36.99</li>
+								<li class="prd-refs">
+									<div class="prd-ref">
+										<img src="../img/list(s)-img1.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/list(s)-img2.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/list(s)-img3.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/list(s)-img4.jpg" class="img">
+									</div>
+									<div class="prd-ref">+2</div>
+								</li>
+							</ul>
+							<ul class="prd">
+								<li class="prd-img"><img src="../img/list-img4.jpg" class="img"></li>
+								<li class="prd-tit">Tomorrow</li>
+								<li class="prd-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+								<li class="prd-star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="prd-price">$36.99</li>
+								<li class="prd-refs">
+									<div class="prd-ref">
+										<img src="../img/list(s)-img1.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/list(s)-img2.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/list(s)-img3.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/list(s)-img4.jpg" class="img">
+									</div>
+									<div class="prd-ref">+2</div>
+								</li>
+							</ul>
+							<ul class="prd">
+								<li class="prd-img"><img src="../img/list-img4.jpg" class="img"></li>
+								<li class="prd-tit">Tomorrow</li>
+								<li class="prd-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</li>
+								<li class="prd-star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="prd-price">$36.99</li>
+								<li class="prd-refs">
+									<div class="prd-ref">
+										<img src="../img/list(s)-img1.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/list(s)-img2.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/list(s)-img3.jpg" class="img">
+									</div>
+									<div class="prd-ref">
+										<img src="../img/list(s)-img4.jpg" class="img">
+									</div>
+									<div class="prd-ref">+2</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 상단: 로고/카트/위시리스트/로그인 -->
+		<div class="top-links wrap">
+			<div class="logo">
+				<img src="../img/h1_logo.png" class="img">
+			</div>
+			<div class="top-link">
+				<div class="desc">FREE SHIPPING ON ALL ORDERS. NO MINIMUM PURCHASE</div>
+				<ul class="bts">
+					<li>
+						<img src="../img/cart.svg" style="width: 26px;">
+						<span>Shopping Cart</span>
+						<span class="rnd-cnt">0</span>
+					</li>
+					<li>
+						<i class="fas fa-heart"></i>
+						<span class="underbar">My Wish Lists</span>
+					</li>
+					<li>
+						<span class="underbar">Sign In</span>
+						<span>or</span>
+						<span class="underbar">Create an account</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 상단: 네비게이션 -->
+		<ul class="top-navis">
+			<ul class="top-navi wrap">
+				<li class="navi underbar navi-under">
+					<span>NEW IN</span>
+					<div class="subs">
+						<div class="sub wrap grid-two">
+							<div class="sub-navi">
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+
+							</div>
+							<div class="sub-ad1">
+								<div>
+									<img src="../img/mega-style-2.jpg" class="img">
+									<img src="../img/mega-style-2-2.jpg" class="img">
+								</div>
+								<div>
+									<img src="../img/mega-style-2-3.jpg" class="img">
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="navi underbar navi-under">
+					<span>TREND</span>
+					<div class="subs">
+						<div class="sub wrap grid-two">
+							<div class="sub-navi">
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul>
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+							</div>
+							<div class="sub-ad2">
+								<div>
+									<ul class="prd">
+										<li class="prd-tit">FEATURED PRODUCTS</li>
+										<li class="prd-img">
+											<img src="../img/list-img4.jpg" class="img">
+											<div>Sale</div>
+										</li>
+										<li class="prd-desc">
+											French connection<br>
+											Lorem ipsum, dolor
+										</li>
+										<li class="prd-price">
+											<span>$99.99</span>
+											<span>from</span>
+											<span>$36.99</span>
+										</li>
+										<li class="prd-star">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="far fa-star"></i>
+											<i class="far fa-star"></i>
+										</li>
+										<li class="prd-opts">
+											<span>SELECT OPTIONS</span>
+										</li>
+									</ul>
+								</div>
+								<div class="prd-banner">
+									<img src="../img/mega-style-1.jpg" class="img">
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="navi underbar navi-under">
+					<span class="position-relative">
+						COLLECTIONS
+						<div class="tip" style="background-color: #ef6454;">SALE</div>
+					</span>
+					<div class="subs">
+						<div class="sub wrap grid-card">
+							<ul>
+								<li class="prd-tit">LOREM DE DORUS</li>
+								<li class="prd-img">
+									<img src="../img/mega-style-3-1.jpg" class="img" alt="이미지1">
+								</li>
+								<li class="prd-links">
+									<ul>
+										<li class="sub-navi"><a href="#" class="underbar">Millano</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Paris</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">New York</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Sanfran Cisco</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Seoul</a></li>
+									</ul>
+								</li>
+							</ul>
+							<ul>
+								<li class="prd-tit">LOREM DE DORUS</li>
+								<li class="prd-img">
+									<img src="../img/mega-style-3-2.jpg" class="img" alt="이미지1">
+								</li>
+								<li class="prd-links">
+									<ul>
+										<li class="sub-navi"><a href="#" class="underbar">Millano</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Paris</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">New York</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Sanfran Cisco</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Seoul</a></li>
+									</ul>
+								</li>
+							</ul>
+							<ul>
+								<li class="prd-tit">LOREM DE DORUS</li>
+								<li class="prd-img">
+									<img src="../img/mega-style-3-3.jpg" class="img" alt="이미지1">
+								</li>
+								<li class="prd-links">
+									<ul>
+										<li class="sub-navi"><a href="#" class="underbar">Millano</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Paris</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">New York</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Sanfran Cisco</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Seoul</a></li>
+									</ul>
+								</li>
+							</ul>
+							<ul>
+								<li class="prd-tit">LOREM DE DORUS</li>
+								<li class="prd-img">
+									<img src="../img/mega-style-3-4.jpg" class="img" alt="이미지1">
+								</li>
+								<li class="prd-links">
+									<ul>
+										<li class="sub-navi"><a href="#" class="underbar">Millano</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Paris</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">New York</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Sanfran Cisco</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Seoul</a></li>
+									</ul>
+								</li>
+							</ul>
+							<ul>
+								<li class="prd-tit">LOREM DE DORUS</li>
+								<li class="prd-img">
+									<img src="../img/mega-style-3-5.jpg" class="img" alt="이미지1">
+								</li>
+								<li class="prd-links">
+									<ul>
+										<li class="sub-navi"><a href="#" class="underbar">Millano</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Paris</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">New York</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Sanfran Cisco</a></li>
+										<li class="sub-navi"><a href="#" class="underbar">Seoul</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="navi underbar rel navi-show">
+					<span>LOOKBOOK</span>
+					<ul class="subs subs-local">
+						<li>Lookbook Default</li>
+						<li>Lookbook Custom</li>
+					</ul>
+				</li>
+				<li class="navi underbar navi-under">
+					<span class="position-relative">
+						DEMO
+						<div class="tip" style="background-color: #06bfe2;">NEW</div>
+					</span>
+					<div class="subs">
+						<div class="sub wrap grid-masonry">
+							<div class="sub-navi grid-wrap">
+								<div class="grid-sizer"></div>
+								<ul class="grid-item">
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul class="grid-item">
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul class="grid-item">
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul class="grid-item">
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul class="grid-item">
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul class="grid-item">
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+								<ul class="grid-item">
+									<li class="tit">LOREM DORUS</li>
+									<li><a href="#" class="underbar">Gravidas</a></li>
+								</ul>
+							</div>
+							<div class="sub-ad3">
+								<div class="prd-banner">
+									<img src="../img/mega-style-4.jpg" class="img">
+								</div>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li class="navi underbar rel navi-show">
+					<span>PAGES</span>
+					<ul class="subs subs-local">
+						<li>Lookbook Default</li>
+						<li>Lookbook Custom</li>
+					</ul>
+				</li>
+				<li class="navi underbar rel navi-show">
+					<span>BLOG</span>
+					<ul class="subs subs-local">
+						<li>Lookbook Default</li>
+						<li>Lookbook Custom</li>
+					</ul>
+				</li>
+				<li class="navi underbar navi-under">
+					<span>BRENDS</span>
+				</li>
+				<li class="navi underbar navi-under">
+					<span>FAQS</span>
+				</li>
+			</ul>
+		</ul>
+	</header>
+	<!-- 메인: 배너 -->
+	<main>
+		<section class="main-bans">
+			<ul class="main-ban">
+				<li>
+					<img src="../img/ban1.jpg" alt="메인배너" class="img">
+					<ul class="ban-conts lt20">
+						<li class="ban-tit">COSMOPOLIS</li>
+						<li class="ban-bar"></li>
+						<li class="ban-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+							consectetur adipisicing elit.</li>
+						<li class="ban-bt">
+							<span class="bt-ban-link bt-rev">SHOP THE COLLECTION</span>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<img src="../img/ban2.jpg" alt="메인배너" class="img">
+				</li>
+				<li>
+					<img src="../img/ban3.jpg" alt="메인배너" class="img">
+					<ul class="ban-conts rt20">
+						<li class="ban-tit">COSMOPOLIS</li>
+						<li class="ban-bar"></li>
+						<li class="ban-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
+							consectetur adipisicing elit.</li>
+						<li class="ban-bt">
+							<span class="bt-ban-link bt-rev">SHOP THE COLLECTION</span>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<div class="pager-prev">&lt;</div>
+			<div class="pager-next">&gt;</div>
+			<div class="pagers">
+				<div class="pager active">●</div>
+				<div class="pager">●</div>
+				<div class="pager">●</div>
+			</div>
+		</section>
+	</main>
+	<!-- 메인: 배너 바로 밑 5개 상품 -->
+	<section class="bests wrap">
+		<div class="best-wrap">
+			<ul class="best-items">
+				<li class="best-item">
+					<img src="../img/1174597585394567814.jpg" alt="best" class="img">
+					<div class="underbar">반려동물</div>
+				</li>
+				<li class="best-item">
+					<img src="../img/859613424414660094.jpg" alt="best" class="img">
+					<div class="underbar">맘&베이비</div>
+				</li>
+				<li class="best-item">
+					<img src="../img/2311204905317579748.jpg" alt="best" class="img">
+					<div class="underbar">남성전문관</div>
+				</li>
+				<li class="best-item">
+					<img src="../img/455765463432640901.jpg" alt="best" class="img">
+					<div class="underbar">식품전문관</div>
+				</li>
+				<li class="best-item">
+					<img src="../img/4450953299176777869.jpg" alt="best" class="img">
+					<div class="underbar">향수디퓨저</div>
+				</li>
+				<li class="best-item">
+					<img src="../img/4250553720460812524.jpg" alt="best" class="img">
+					<div class="underbar">민감성피부</div>
+				</li>
+			</ul>
+		</div>
+		<div class="best-prev" id="best-prev">&lt;</div>
+		<div class="best-next" id="best-next">&gt;</div>
+	</section>
+	<!-- 중간: 오른쪽 그림/왼쪽 상품3개 배너 -->
+	<section class="sellers">
+		<div class="seller-items">
+			<div class="seller-imgs">
+				<img src="../img/77404987_434938634057739_710069848621609745_n.jpg" alt="ad" class="">
+				<ul class="seller-conts">
+					<li class="seller-tit">#내 피부를 위한 기초템</li>
+					<li class="seller-slogan">요즘 가장 핫한 상품들 BEST5</li>
+					<li class="seller-cont">5만원 이상 구매시 5,000원 할인!!
+					</li>
+					<li class="seller-bt">
+						<span class="bt-rev invert">자세히 보러가기</span>
+					</li>
+				</ul>
+			</div>
+			<div class="seller-prds">
+				<div class="best-prev" id="seller-prev">&lt;</div>
+				<div class="best-next" id="seller-next">&gt;</div>
+				<h3 class="seller-tit">판매 베스트</h3>
+				<p class="seller-slogan">오늘의 베스트! 가장 핫한 상품</p>
+				<div class="common-items" id="seller-slide">
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/A00000013119802ko.jpg" alt="기본" class="img img-def">
+							<img src="../img/A00000001467702ko.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="sizes">
+									<div class="size">수분</div>
+									<div class="size">진정</div>
+									<div class="size">톤업</div>
+									<div class="size">탄력</div>
+									<div class="size size-more"></div>
+								</li>
+								<li class="quicks">장바구니담기</li>
+							</ul>
+						</li>
+						<li class="common-brand">메디힐</li>
+						<li class="common-summary">[온라인단독한정기획]</li>
+						<li class="common-summary">에센셜 마스크 REX</li>
+						<li class="common-price">30,000원</li>
+						<li class="common-rel">
+						</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/A00000013206601ko.jpg" alt="기본" class="img img-def">
+							<img src="../img/A00000001288101ko.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="sizes">
+									<div class="size">로션</div>
+									<div class="size">크림</div>
+									<div class="size">폼</div>
+									<div class="size">바디</div>
+									<div class="size size-more">+2</div>
+								</li>
+								<li class="quicks">장바구니담기</li>
+							</ul>
+						</li>
+						<li class="common-brand">피지오겔</li>
+						<li class="common-summary">데일리보습 페이셜크림</li>
+						<li class="common-price"><span>39,700원</span> 25,800원</li>
+						<li class="common-rel">
+						</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/A00000012550803ko.jpg" alt="기본" class="img img-def">
+							<img src="../img/A00000012550803ko.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="sizes">
+								</li>
+								<li class="quicks">장바구니담기</li>
+							</ul>
+						</li>
+						<li class="common-brand">라운드랩</li>
+						<li class="common-summary">1025 독도토너 500ml</li>
+						<li class="common-price"><span>30,000원</span> 25,000원</li>
+						<li class="common-rel">
+						</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/A00000000265326ko.jpg" alt="기본" class="img img-def">
+							<img src="../img/A00000001319430ko.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="sizes">
+								</li>
+								<li class="quicks">장바구니담기</li>
+							</ul>
+						</li>
+						<li class="common-brand">바이오더마</li>
+						<li class="common-summary">센시비오 500+500ml듀오팩</li>
+						<li class="common-price"><span>42,500원</span> 34,000원</li>
+						<li class="common-rel">
+						</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/A00000010789703ko.jpg" alt="기본" class="img img-def">
+							<img src="../img/A00000010789703ko.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="sizes">
+								</li>
+								<li class="quicks">장바구니담기</li>
+							</ul>
+						</li>
+						<li class="common-brand">바이오더마</li>
+						<li class="common-summary">센시비오 500+500ml듀오팩</li>
+						<li class="common-price"><span>42,500원</span> 34,000원</li>
+						<li class="common-rel">
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- 중간: 카테고리 3개 이미지 -->
+	<section class="arrivals">
+		<div class="arrivals-tit"><span>ONLY ONE BRAND</span> 오직 올리브영에서만!</div>
+		<div class="arrival-items wrap">
+			<ul class="arrival-item">
+				<li class="arrival-img"><img src="../img/4251844643378813081.jpg" alt="사진" class="img">
+				</li>
+				<li class="arrival-slogan">수분진정과 보습을 동시에!!</li>
+				<li class="arrival-tit">보타닉힐보 & 브링그린</li>
+				<li class="arrival-cont"></li>
+				<li class="arrival-bt">
+					<button class="bt-rev invert">보러가기</button>
+				</li>
+			</ul>
+			<ul class="arrival-item">
+				<li class="arrival-img"><img src="../img/2606534657482347131.jpg" alt="사진" class="img">
+				</li>
+				<li class="arrival-slogan">바디/썬케어</li>
+				<li class="arrival-tit">겨울맞이 온리원탬</li>
+				<li class="arrival-cont"></li>
+				<li class="arrival-bt">
+					<button class="bt-rev invert">보러가기</button>
+				</li>
+			</ul>
+			<ul class="arrival-item">
+				<li class="arrival-img"><img src="../img/2328171255634438452.jpg" alt="사진" class="img">
+				</li>
+				<li class="arrival-slogan">색조화장 끝판왕</li>
+				<li class="arrival-tit">올리브영 색조탬</li>
+				<li class="arrival-cont"></li>
+				<li class="arrival-bt">
+					<button class="bt-rev invert">보러가기</button>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!-- 중간: 왼쪽 그림/ 오른쪽 상품 3개 배너 -->
+	<section class="sellers invert">
+		<div class="seller-items invert">
+			<div class="seller-prds rel">
+				<div class="best-prev" id="seller-prev2">&lt;</div>
+				<div class="best-next" id="seller-next2">&gt;</div>
+				<h3 class="seller-tit">메이크업 베스트</h3>
+				<p class="seller-slogan"></p>
+				<div class="common-items" id="seller-slide2">
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/A00000012893104ko.jpg" alt="기본" class="img img-def">
+							<img src="../img/A00000012893104ko.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="sizes">
+									<div class="size">바닐라</div>
+									<div class="size">아이보리</div>
+									<div class="size">페렐</div>
+									<div class="size">베이지</div>
+								</li>
+								<li class="quicks">장바구니담기</li>
+							</ul>
+						</li>
+						<li class="common-brand">에스쁘아</li>
+						<li class="common-summary">프로테일러 비글로우 쿠션</li>
+						<li class="common-price"><span>35,000원</span> 28,220원</li>
+						<li class="common-rel">
+						</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/A00000011232101ko.jpg" alt="기본" class="img img-def">
+							<img src="../img/A00000011232101ko.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="sizes">
+									<div class="size">란제리</div>
+									<div class="size">리넨</div>
+								</li>
+								<li class="quicks">장바구니담기</li>
+							</ul>
+						</li>
+						<li class="common-brand">클리오</li>
+						<li class="common-summary">킬커버 앰플쿠션 기획세트</li>
+						<li class="common-summary">(본품+리필)(AD)</li>
+						<li class="common-price"><span>32,000원</span> 22,400원</li>
+						<li class="common-rel">
+						</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/A00000012158102ko.jpg" alt="기본" class="img img-def">
+							<img src="../img/A00000012158102ko.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="sizes">
+								</li>
+								<li class="quicks">장바구니담기</li>
+							</ul>
+						</li>
+						<li class="common-brand">클리오</li>
+						<li class="common-summary" style="color: #ef6454;">[오늘드림]</li>
+						<li class="common-summary">프로아이팔레트</li>
+						<li class="common-price"><span>32,000원</span> 22,400원</li>
+						<li class="common-rel">
+						</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/A00000013131712ko.jpg" alt="기본" class="img img-def">
+							<img src="../img/A00000013131712ko.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="sizes">
+								</li>
+								<li class="quicks">장바구니담기</li>
+							</ul>
+						</li>
+						<li class="common-brand">투쿨포스쿨</li>
+						<li class="common-summary">바이로댕쉐이딩</li>
+						<li class="common-summary">(브러쉬미포함)</li>
+						<li class="common-price"><span>16,000원</span> 12,800원</li>
+						<li class="common-rel">
+						</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/A00000001177302ko.jpg" alt="기본" class="img img-def">
+							<img src="../img/A00000001177302ko.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="sizes">
+								</li>
+								<li class="quicks">장바구니담기</li>
+							</ul>
+						</li>
+						<li class="common-brand">클리오</li>
+						<li class="common-summary" style="color: #ef6454;">[오늘드림]</li>
+						<li class="common-summary">샤프 . 쏘 심플</li>
+						<li class="common-summary">워터프루프 펜슬 라이너</li>
+						<li class="common-price"><span>10,000원</span> 7,000원</li>
+						<li class="common-rel">
+						</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/A00000013112803ko.jpg" alt="기본" class="img img-def">
+							<img src="../img/A00000013112803ko.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="sizes">
+								</li>
+								<li class="quicks">장바구니담기</li>
+							</ul>
+						</li>
+						<li class="common-brand">3CE</li>
+						<li class="common-summary" style="color: #ef6454;">[오늘드림]</li>
+						<li class="common-summary">멀티 아이컬러 팔레트 </li>
+						<li class="common-summary">[올.영 어워즈 한정기획]</li>
+						<li class="common-price"><span>38,000원</span> 30,400원</li>
+						<li class="common-rel">
+						</li>
+					</ul>
+					<ul class="common-item">
+						<li class="common-img">
+							<img src="../img/A00000012174901ko.jpg" alt="기본" class="img img-def">
+							<img src="../img/A00000012174901ko.jpg" alt="오버" class="img img-hover">
+							<ul>
+								<li class="hearts">
+									<span class="heart fas fa-heart"></span>
+								</li>
+								<li class="bts">
+									<span class="bt-rev invert">SELECT OPTIONS</span>
+								</li>
+								<li class="stars">
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+									<i class="far fa-star"></i>
+								</li>
+								<li class="sizes">
+								</li>
+								<li class="quicks">장바구니담기</li>
+							</ul>
+						</li>
+						<li class="common-brand">클리오</li>
+						<li class="common-summary" style="color: #ef6454;">[오늘드림]</li>
+						<li class="common-summary">킬래쉬 수퍼프루프마스카라</li>
+						<li class="common-summary">1+1 기획</li>
+						<li class="common-price"> 18,000원</li>
+						<li class="common-rel">
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="seller-imgs">
+				<img src="../img/76888742_1777518459049394_1281122672788824637_n.jpg" alt="ad" class="">
+				<ul class="seller-conts">
+					<li class="seller-tit">#올리브영 색조화장품</li>
+					<li class="seller-slogan"></li>
+					<li class="seller-cont">올리브영에서 만나볼 수 있는 특별한 브랜드의 올 한해 사랑받은 아이템
+					</li>
+					<li class="seller-bt">
+						<a href="http://www.oliveyoung.co.kr/store/planshop/getPlanShopDetail.do?dispCatNo=500000100930057"><span class="bt-rev invert">자세히 보러가기</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- 중간: 카테고리 3개 선택 (선택하면 5개 이미지 배너)-->
+	<section class="choices wrap">
+		<ul class="choice-navis">
+			<li class="choice-navi active">PET 기획전</li>
+			<li class="choice-navi">프리미엄</li>
+			<li class="choice-navi">오늘드림 테마관</li>
+		</ul>
+		<div class="seller-prds">
+			<div class="choice-wrap">
+			<div class="best-prev" id="choice-prev">&lt;</div>
+			<div class="best-next" id="choice-next">&gt;</div>
+
+			<div class="common-items five" id="choice-wrap">
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/B00000012888401ko.jpg" alt="기본" class="img img-def">
+						<img src="../img/B00000012888401ko.jpg" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<span class="bt-rev invert">SELECT OPTIONS</span>
+							</li>
+							<li class="stars">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</li>
+							<li class="sizes">
+								<div class="size">중형</div>
+								<div class="size">대형</div>
+								<div class="size">특대</div>
+							</li>
+							<li class="quicks">장바구니담기</li>
+						</ul>
+					</li>
+					<li class="common-brand">금강아지</li>
+					<li class="common-brand">[업체배송]</li>
+					<li class="common-summary">댕댕이가 믿고 싸는</li>
+					<li class="common-summary">싸다패드 배변패드 모음</li>
+					<li class="common-price"><span>15,000원</span> 7,400원</li>
+					<li class="common-rel">
+					</li>
+				</ul>
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/B00000012157303ko.jpg" alt="기본" class="img img-def">
+						<img src="../img/B00000012157303ko.jpg" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<span class="bt-rev invert">SELECT OPTIONS</span>
+							</li>
+							<li class="stars">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</li>
+							<li class="sizes">
+							</li>
+							<li class="quicks">장바구니담기</li>
+						</ul>
+					</li>
+					<li class="common-brand">금강아지</li>
+					<li class="common-summary">[업체배송]</li>
+					<li class="common-summary">덴탈프로 X3 강아지껌/개껌</li>
+					<li class="common-price"><span>8,900원</span> 6,900원</li>
+					<li class="common-rel">
+					</li>
+				</ul>
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/B00000013040301ko.jpg" alt="기본" class="img img-def">
+						<img src="../img/B00000013040301ko.jpg" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<span class="bt-rev invert">SELECT OPTIONS</span>
+							</li>
+							<li class="stars">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</li>
+							<li class="sizes">
+								<div class="size">SM-P</div>
+								<div class="size">M-P</div>
+								<div class="size">L-P</div>
+								<div class="size">M-B</div>
+								<div class="size">L-B</div>
+							</li>
+							<li class="quicks">장바구니담기</li>
+						</ul>
+					</li>
+					<li class="common-brand">울리</li>
+					<li class="common-summary">밍크머플러패딩베스트</li>
+					<li class="common-summary"></li>
+					<li class="common-price">17,900원</li>
+					<li class="common-rel">
+					</li>
+				</ul>
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/B00000013042101ko.jpg" alt="기본" class="img img-def">
+						<img src="../img/B00000013042101ko.jpg" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<span class="bt-rev invert">SELECT OPTIONS</span>
+							</li>
+							<li class="stars">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</li>
+							<li class="sizes">
+							</li>
+							<li class="quicks">장바구니담기</li>
+						</ul>
+					</li>
+					<li class="common-brand">울리</li>
+					<li class="common-summary">리프펫방석</li>
+					<li class="common-price">17,900원</li>
+					<li class="common-rel">
+					</li>
+				</ul>
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/B00000012850803ko.jpg" alt="기본" class="img img-def">
+						<img src="../img/B00000012850803ko.jpg" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<span class="bt-rev invert">SELECT OPTIONS</span>
+							</li>
+							<li class="stars">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</li>
+							<li class="sizes">
+							</li>
+							<li class="quicks">장바구니담기</li>
+						</ul>
+					</li>
+					<li class="common-brand">마즈</li>
+					<li class="common-summary">[업체배송]</li>
+					<li class="common-summary">고양이 간식 수제 수프</li>
+					<li class="common-summary">40g X 24개(무배)</li>
+					<li class="common-price">27,500원</li>
+					<li class="common-rel">
+					</li>
+				</ul>
+			</div>
+		</div>
+			<div class="choice-wrap">
+			<div class="best-prev" id="choice-prev1">&lt;</div>
+			<div class="best-next" id="choice-next1">&gt;</div>
+
+			<div class="common-items five" id="choice-wrap1">
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/3666301461845335767.jpg" alt="기본" class="img img-def">
+						<img src="../img/3666301461845335767.jpg" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<a href="http://www.oliveyoung.co.kr/store/planshop/getPlanShopDetail.do?dispCatNo=500000100910025"><span class="bt-rev invert">컬렉션보러가기</span></a>
+							</li>
+							<li class="stars">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</li>
+							<li class="sizes">
+							</li>
+							<li class="quicks"></li>
+						</ul>
+					</li>
+					<li class="common-brand">투페이스트</li>
+					<li class="common-summary">홀리데이 컬렉션</li>
+					<li class="common-price"></li>
+					<li class="common-rel">
+						<div class="rel">
+							<div>
+								<img src="../img/A00000013180901ko.jpg" alt="관련상품" class="img">
+							</div>
+						</div>
+						<div class="rel">
+							<div>
+								<img src="../img/A00000013132801ko.jpg" alt="관련상품" class="img">
+							</div>
+						</div>
+						<div class="rel">
+							<div>
+								<img src="../img/A00000013132401ko.jpg" alt="관련상품" class="img">
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/1907237264863551122.jpg" alt="기본" class="img img-def">
+						<img src="../img/1907237264863551122.jpg" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<a href="http://www.oliveyoung.co.kr/store/planshop/getPlanShopDetail.do?dispCatNo=500000100910007"><span class="bt-rev invert">컬렉션보러가기</span></a>
+							</li>
+							<li class="stars">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</li>
+							<li class="sizes">
+							</li>
+							<li class="quicks"></li>
+						</ul>
+					</li>
+					<li class="common-brand">바비브라운</li>
+					<li class="common-summary">미니럭스 립 컬렉션</li>
+					<li class="common-price"></li>
+					<li class="common-rel">
+						<div class="rel">
+							<div>
+								<img src="../img/A00000013129901ko1.jpg" alt="관련상품" class="img">
+							</div>
+						</div>
+						<div class="rel">
+							<div>
+								<img src="../img/A00000013129902ko.jpg" alt="관련상품" class="img">
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/2784433917708252325.jpg" alt="기본" class="img img-def">
+						<img src="../img/2784433917708252325.jpg" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<a href="http://www.oliveyoung.co.kr/store/planshop/getPlanShopDetail.do?dispCatNo=500000100910010"><span class="bt-rev invert">컬렉션보러가기</span></a>
+							</li>
+							<li class="stars">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</li>
+							<li class="sizes">
+							</li>
+							<li class="quicks"></li>
+						</ul>
+					</li>
+					<li class="common-brand">아베다</li>
+					<li class="common-summary">마음을 전하는 선물의 기쁨</li>
+					<li class="common-price"></li>
+					<li class="common-rel">
+						<div class="rel">
+							<div>
+								<img src="../img/A00000013129502.jpg" alt="관련상품" class="img">
+							</div>
+						</div>
+						<div class="rel">
+							<div>
+								<img src="../img/A00000013129502k.jpg" alt="관련상품" class="img">
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/1762824213945137826.jpg" alt="기본" class="img img-def">
+						<img src="../img/1762824213945137826.jpg" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<a href="http://www.oliveyoung.co.kr/store/planshop/getPlanShopDetail.do?dispCatNo=500000100940025"><span class="bt-rev invert">컬렉션보러가기</span></a>
+							</li>
+							<li class="stars">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</li>
+							<li class="sizes">
+							</li>
+							<li class="quicks"></li>
+						</ul>
+					</li>
+					<li class="common-brand">겐조</li>
+					<li class="common-summary">썰매타고온 겐조산타</li>
+					<li class="common-price"></li>
+					<li class="common-rel">
+					</li>
+				</ul>
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/4718777717231951954.jpg" alt="기본" class="img img-def">
+						<img src="../img/4718777717231951954.jpg" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<a href="http://www.oliveyoung.co.kr/store/planshop/getPlanShopDetail.do?dispCatNo=500000100940026"><span class="bt-rev invert">컬렉션보러가기</span></a>
+							</li>
+							<li class="stars">
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							</li>
+							<li class="sizes">
+							</li>
+							<li class="quicks"></li>
+						</ul>
+					</li>
+					<li class="common-brand">프리미엄 향수 이벤트</li>
+					<li class="common-summary">온라인몰에서만 단독진행</li>
+					<li class="common-price"></li>
+					<li class="common-rel">
+					</li>
+				</ul>
+			</div>
+		</div>
+			<div class="choice-wrap">
+			<div class="best-prev" id="choice-prev2">&lt;</div>
+			<div class="best-next" id="choice-next2">&gt;</div>
+
+			<div class="common-items five" id="choice-wrap2">
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/2422063577353994418.png" alt="기본" class="img img-def">
+						<img src="../img/2422063577353994418.png" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<span class="bt-rev invert">보러가기</span>
+							</li>
+							<li class="stars">
+							</li>
+							<li class="sizes">
+							</li>
+							<li class="quicks"></li>
+						</ul>
+					</li>
+					<li class="common-brand"></li>
+					<li class="common-summary">대국민필수템</li>
+					<li class="common-price"></li>
+					<li class="common-rel">
+					</li>
+				</ul>
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/7483707440734771057.png" alt="기본" class="img img-def">
+						<img src="../img/7483707440734771057.png" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<span class="bt-rev invert">보러가기</span>
+							</li>
+							<li class="stars">
+							</li>
+							<li class="sizes">
+							</li>
+							<li class="quicks"></li>
+						</ul>
+					</li>
+					<li class="common-brand"></li>
+					<li class="common-summary">헤어케어끝판왕</li>
+					<li class="common-price"></li>
+					<li class="common-rel">
+					</li>
+				</ul>
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/5472772368160211639.png" alt="기본" class="img img-def">
+						<img src="../img/5472772368160211639.png" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<span class="bt-rev invert">보러가기</span>
+							</li>
+							<li class="stars">
+							</li>
+							<li class="sizes">
+							</li>
+							<li class="quicks"></li>
+						</ul>
+					</li>
+					<li class="common-brand"></li>
+					<li class="common-summary">연인선물추천템</li>
+					<li class="common-price"></li>
+					<li class="common-rel">
+					</li>
+				</ul>
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/8203129576064740202.png" alt="기본" class="img img-def">
+						<img src="../img/8203129576064740202.png" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<span class="bt-rev invert">보러가기</span>
+							</li>
+							<li class="stars">
+							</li>
+							<li class="sizes">
+							</li>
+							<li class="quicks"></li>
+						</ul>
+					</li>
+					<li class="common-brand"></li>
+					<li class="common-summary">촉촉함이 필요해</li>
+					<li class="common-price"></li>
+					<li class="common-rel">
+					</li>
+				</ul>
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/5559187473024179215.png" alt="기본" class="img img-def">
+						<img src="../img/5559187473024179215.png" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<span class="bt-rev invert">보러가기</span>
+							</li>
+							<li class="stars">
+							</li>
+							<li class="sizes">
+							</li>
+							<li class="quicks"></li>
+						</ul>
+					</li>
+					<li class="common-brand"></li>
+					<li class="common-summary">완벽한 클렌징</li>
+					<li class="common-price"></li>
+					<li class="common-rel">
+					</li>
+				</ul>
+				<ul class="common-item">
+					<li class="common-img">
+						<img src="../img/5361310943400243376.png" alt="기본" class="img img-def">
+						<img src="../img/5361310943400243376.png" alt="오버" class="img img-hover">
+						<ul>
+							<li class="hearts">
+								<span class="heart fas fa-heart"></span>
+							</li>
+							<li class="bts">
+								<span class="bt-rev invert">보러가기</span>
+							</li>
+							<li class="stars">
+							</li>
+							<li class="sizes">
+							</li>
+							<li class="quicks"></li>
+						</ul>
+					</li>
+					<li class="common-brand"></li>
+					<li class="common-summary">그날에당황말고</li>
+					<li class="common-price"></li>
+					<li class="common-rel">
+					</li>
+				</ul>
+			</div>
+		</div>
+		</div>
+	</section>
+	<!-- 하단: 이미지2개 있는 post -->
+	<section class="posts wrap">
+		<h3 class="posts-tit line-tit">
+			<span>진행중인 이벤트</span>
+		</h3>
+		<div class="posts-slogan line-slogan">
+			풍성한 이벤트! 즐거운 올리브영
+		</div>
+		<ul class="post-items">
+			<li class="post-item">
+				<div class="hover-img">
+					<img src="../img/1325773285136580871.jpg" alt="사진" class="img">
+				</div>
+				<ul class="post-desc">
+					<li class="tit">2019 뷰티 SUMMARY!</li>
+					<li class="date">핵심템 특가 보러 지금 바로 GO!</li>
+					<li class="desc">2019.12.25~2019.12.27</li>
+				</ul>
+			</li>
+			<li class="post-item">
+				<div class="hover-img">
+					<img src="../img/831953302342252044.jpg" alt="사진" class="img">
+				</div>
+				<ul class="post-desc">
+					<li class="tit">단독브랜드</li>
+					<li class="date">#오직올리브영 #단독상품 #지금바로</li>
+					<li class="desc">2019.12.25~2019.12.27</li>
+				</ul>
+			</li>
+		</ul>
+	</section>
+	<!-- 하단: 브랜드 로고 배너 -->
+	<section class="brands">
+		<h3 class="seller-tit">프리미엄 브랜드</h3>
+		<div class="brand-wrap wrap rel">
+			<div class="best-prev" id="brand-prev">&lt;</div>
+			<div class="best-next" id="brand-next">&gt;</div>
+				<ul class="brand-items">
+					<li>
+						<img src="../img/8270083789880817932.png" alt="logo" class="img">
+					</li>
+					<li>
+						<img src="../img/8681727352001848338.png" alt="logo" class="img">
+					</li>
+					<li>
+						<img src="../img/9084929947885998517.png" alt="logo" class="img">
+					</li>
+					<li>
+						<img src="../img/5268320966382485058.png" alt="logo" class="img">
+					</li>
+					<li>
+						<img src="../img/5970840102805081887.png" alt="logo" class="img">
+					</li>
+					<li>
+						<img src="../img/8094141463008018048.png" alt="logo" class="img">
+					</li>
+					<li>
+						<img src="../img/4891207789564048479.png" alt="logo" class="img">
+					</li>
+					<li>
+						<img src="../img/3948674751284963090.png" alt="logo" class="img">
+					</li>
+					<li>
+						<img src="../img/1181763420411364963.png" alt="logo" class="img">
+					</li>
+					<li>
+						<img src="../img/1926715137549948278.png" alt="logo" class="img">
+					</li>
+				</ul>
+		</div>
+	</section>
+	<!-- 하단: 인스타그램 -->
+	<section class="instas">
+		<h3 class="insta-tit">
+			<a href="https://www.instagram.com/oliveyoung_official/?hl=ko"><i class="fab fa-instagram">#OLIVE YOUNG INSTAGRAM</i></a>
+		</h3>
+		<div class="insta-slogan">
+			올리브영 공식 계정
+		</div>
+		<div class="insta-wrap wrap rel">
+			<div class="best-prev" id="insta-prev">&lt;</div>
+			<div class="best-next" id="insta-next">&gt;</div>
+			<div class="insta-container">
+			<ul class="insta-items">
+				<li class="insta-item">
+					<img src="../img/79371402_192914395217415_396728070826488565_n.jpg" alt="instaimg" class="img">
+				</li>
+				<li class="insta-item">
+					<img src="../img/79378864_798021540624170_1115148871590343205_n.jpg" alt="instaimg" class="img">
+				</li>
+				<li class="insta-item">
+					<img src="../img/74982532_1384518735049775_5185780158523308864_n.jpg" alt="instaimg" class="img">
+				</li>
+				<li class="insta-item">
+					<img src="../img/79284350_601469817091102_7707830174729539549_n.jpg" alt="instaimg" class="img">
+				</li>
+				<li class="insta-item">
+					<img src="../img/79603099_471013426933070_8411582301082944940_n.jpg" alt="instaimg" class="img">
+				</li>
+				<li class="insta-item">
+					<img src="../img/80710557_156716152288249_6359754702707136196_n.jpg" alt="instaimg" class="img">
+				</li>
+				<li class="insta-item">
+					<img src="../img/79748738_154998895825593_1758630138685274081_n.jpg" alt="instaimg" class="img">
+				</li>
+				<li class="insta-item">
+					<img src="../img/76709220_2563380803896716_89812634257491061_n.jpg" alt="instaimg" class="img">
+				</li>
+			</ul>
+		</div>
+		</div>
+		<div class="insta-bts">
+			<a href="https://www.instagram.com/oliveyoung_official/?hl=ko"><button class="bt-rev">인스타그램 넘어가기</button></a>
+		</div>
+	</section>
+	<!-- 푸터 -->
+	<footer class="footer-tops">
+		<div class="footer-items wrap">
+			<ul class="footer-item">
+				<li class="tit">카테고리</li>
+				<li class="link"><a href="#" class="underbar">스킨헤어</a></li>
+				<li class="link"><a href="#" class="underbar">메이크업</a></li>
+				<li class="link"><a href="#" class="underbar">바디케어</a></li>
+				<li class="link"><a href="#" class="underbar">헤어케어</a></li>
+				<li class="link"><a href="#" class="underbar">향수/디퓨저</a></li>
+				<li class="link"><a href="#" class="underbar">미용소품</a></li>
+				<li class="link"><a href="#" class="underbar">남성</a></li>
+				<li class="link"><a href="#" class="underbar">건강/위생용품</a></li>
+				<li class="link"><a href="#" class="underbar">반려동물</a></li>
+				<li class="link"><a href="#" class="underbar">베이비</a></li>
+				<li class="link"><a href="#" class="underbar">잡화</a></li>
+			</ul>
+			<ul class="footer-item">
+				<li class="tit">고객안내</li>
+				<li class="link">온라인몰 고객센터</li>
+				<li class="link" style="color: #a6cd48;">1522-0882</li>
+				<li class="link">매장 고객센터</li>
+				<li class="link" style="color: #a6cd48;">1577-4887</li>
+				<li class="link"><a href="#" class="underbar">oliveweb@cj.net</a></li>
+			</ul>
+			<ul class="footer-item">
+				<li class="tit">고객센터 운영시간</li>
+				<li class="link">평일09:00 ~ 18:00</li>
+				<li class="link">주말 및 공휴일은 1:1문의하기를 이용해주세요.</li>
+				<li class="link">업무가 시작되면 바로 처리해드리겠습니다.</li>
+				<li class="link" style="color: #a6cd48;">1:1문의하기</li>
+			</ul>
+			<div class="footer-item">
+					<ul>
+						<li class="tit">STAY CONNECTED</li>
+						<li class="footer-sns">
+							<ul class="sns-brand">
+								<li><i class="fab fa-facebook-f"></i></li>
+								<li><i class="fab fa-twitter"></i></li>
+								<li><i class="fab fa-instagram"></i></li>
+								<li><i class="fab fa-blogger"></i></li>
+							</ul>
+							<div class="sns-like">
+								<div>LIKE US ON FACEBOOK</div>
+								<div>
+									<button class="btn btn-sm btn-primary">
+										<i class="fas fa-thumbs-up"></i> 
+										<span>Like</span> 
+										<span>13k</span>
+									</button>
+									<button class="btn btn-sm btn-primary">Share</button>
+								</div>
+							</div>
+						</li>
+					</ul>
+					<ul>
+						<li class="tit">SIGN UP FOR OUR NEWSLETTER</li>
+						<li class="footer-email">
+							<input type="text" class="input-email"
+							name="email" id="email" placeholder="Enter your email address">
+							<button class="bt-rev">SUBMIT</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<!-- 푸터 -->
+		<footer class="footer-bots">
+	<div class="wrap">
+			<div class="footer-copy"></div>
+			<div class="footer-copy">ⓒ doori30.cafe24.com</div>
+			<!-- <ul class="footer-billing">
+				<li>
+					<img src="../img/Visa_Inverted_x32.png.jpg" alt="카드" class="img">
+				</li>
+				<li>
+					<img src="../img/master_card.jpg" alt="카드" class="img">
+				</li>
+				<li>
+					<img src="../img/American-Express_x32.png.jpg" alt="카드" class="img">
+				</li>
+				<li>
+					<img src="../img/cirrus_Inverted.jpg" alt="카드" class="img">
+				</li>
+				<li>
+					<img src="../img/discover.jpg" alt="카드" class="img">
+				</li>
+				<li>
+					<img src="../img/paypal.jpg" alt="카드" class="img">
+				</li>
+				<li>
+					<img src="../img/Western_Union_x32.png.jpg" alt="카드" class="img">
+				</li>
+			</ul> -->
+	</div>
+		</footer>
+		<!-- 스크립트 -->
+		<script src="../js/fx-slide.js"></script>
+	<script src="../js/util.js"></script>
+	<script src="../js/main.js"></script>
+</body>
+
+</html>
